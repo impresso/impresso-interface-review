@@ -1,10 +1,12 @@
-# impresso-interface-review
-This repository contains material related to a survey of digitized newspaper interfaces.
+# Impresso Historic Newspaper User Interface Review
+
+This repository contains material related to a survey of digitized newspaper interfaces.    
 23 interfaces were manually reviewed according to ca. 150 features.
 
 #### Data
 
-The `tsv` file contains the reviews themselves, i.e. values for each surveyed features of each interface. The table has a double index (column 1 and 2) which groups features into "families".
+The `tsv` file contains the reviews themselves, i.e. values for each surveyed features of each interface.    
+ iThe table has a double index (column 1 and 2) which groups features into "families".
 
 #### Charts
 
