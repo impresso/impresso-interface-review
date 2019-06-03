@@ -24,6 +24,9 @@ The notebook to produce the charts and its html version.
 
 _Historic Newspaper User Interfaces: A Review_ (2019), in Proceedings of the 85th [International Federation of Library Associations and Institutions](https://2019.ifla.org/) (IFLA) General Conference and Assembly, Athens, Greece, August 2019.
 
+##### License
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 
 
 
