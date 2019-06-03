@@ -1,7 +1,7 @@
-#!/usr/bin/env python
-# coding: utf-8 
-# created on 2019.06.03 using PyCharm 
-# project impresso-interface-review
+"""
+Small piece of code for creating radar charts.
+Credits: from https://matplotlib.org/examples/api/radar_chart.html
+"""
 
 __author__ = "maudehrmann"
 
@@ -118,11 +118,8 @@ def build_single_radar(labels, values, title, grid, figure_title):
 def build_single_radar_free(labels, values, title, figure_title):
     N = len(labels)
     theta = radar_factory(N, frame='circle')
-
     fig, ax = plt.subplots(figsize=(6, 6), subplot_kw=dict(projection='radar'))
     fig.subplots_adjust(top=0.85, bottom=0.05)
-
-    #ax.set_rgrids(grid, labels=[str(i) for i in grid], size='large')
     ax.set_title(title, position=(0.5, 1.1), ha='center')
 
     for d in values:
@@ -139,15 +136,10 @@ def build_single_radar_free(labels, values, title, figure_title):
 def build_multiple_radar(labels, values, titles, figure_title):
     N = len(labels)
     theta = radar_factory(N, frame='polygon')
-
     fig, axes = plt.subplots(figsize=(120, 80), nrows=4, ncols=6,
                              subplot_kw=dict(projection='radar'))
-
     fig.subplots_adjust(wspace=0.50, hspace=0.20, top=0.85, bottom=0.05)
-
     for ax, case_data, title in zip(axes.flatten(), values, titles):
-        # ax.set_rgrids(['2', '4', '6', '8'])
-        # ax.set_rgrids(grid, labels=[str(i) for i in grid], size='large')
         ax.set_ylim(0, 30)
         ax.set_title(title, weight='bold', fontsize=42, position=(0.5, 1.1),
                      horizontalalignment='center', verticalalignment='center')
