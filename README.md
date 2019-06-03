@@ -27,7 +27,7 @@ _Historic Newspaper User Interfaces: A Review_ (2019), in Proceedings of the 85t
 ##### License
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-
+**DOI**: 10.5281/zenodo.3237860 
 
 
 
