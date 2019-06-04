@@ -1,4 +1,4 @@
-# Impresso Historic Newspaper User Interface Review
+# Historic Newspaper User Interface Review
 
 This repository contains material related to a survey of digitized newspaper interfaces.    
 23 interfaces were manually reviewed according to ca. 150 features.
