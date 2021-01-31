@@ -34,7 +34,6 @@ The notebook to produce the charts and its html version.
       url = {http://infoscience.epfl.ch/record/270246},
       doi = {10.5281/zenodo.3404155},
 }
-
 ```
 **DOI paper:**
 
