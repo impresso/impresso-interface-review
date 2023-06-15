@@ -15,6 +15,13 @@ from matplotlib.transforms import Affine2D
 import numpy as np
 
 
+def trim_all_columns(df):
+    """
+    Trim whitespace from ends of each value across all series in dataframe
+    """
+    trim_strings = lambda x: x.strip() if type(x) is str else x
+    return df.applymap(trim_strings)
+
 def radar_factory(num_vars, frame='circle'):
     """Create a radar chart with `num_vars` axes.
 
